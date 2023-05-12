@@ -42,7 +42,7 @@ open class RollingTextView @JvmOverloads constructor(
     private val charOrderManager = CharOrderManager()
     private val textManager = TextManager(textPaint, charOrderManager)
 
-    private var animator = ValueAnimator.ofFloat(1f)
+    var animator = ValueAnimator.ofFloat(1f)
 
     private val viewBounds = Rect()
     private var gravity: Int = Gravity.END
