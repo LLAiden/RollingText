@@ -123,12 +123,7 @@ Using [Uinspector](https://github.com/YvesCheung/UInspector), You can debug the 
 
 Add `Uinspector` to your `build.gradle`:
 
-```groovy
-dependencies {
-    // debugImplementation because Inspector should only run in debug builds.
-    debugImplementation "com.github.YvesCheung.RollingText:RollingTextInspector:x.y.z"
-}
-```
+
 
 License
 ========

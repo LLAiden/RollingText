@@ -119,12 +119,7 @@ rollingTextView.setText("i am a text");
 
 添加 `Uinspector` 依赖到 `build.gradle` 中:
 
-```groovy
-dependencies {
-    // debugImplementation because Inspector should only run in debug builds.
-    debugImplementation "com.github.YvesCheung.RollingText:RollingTextInspector:x.y.z"
-}
-```
+
 
 许可证
 ========

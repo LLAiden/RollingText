@@ -1,12 +1,2 @@
 apply plugin: 'com.android.library'
 apply from: '../gradle/android_extension.gradle'
-
-ext {
-    libraryName = 'RollingText'
-    libraryDescription = 'Android TextView with rolling animation'
-    siteUrl = 'https://github.com/YvesCheung/RollingText'
-    gitUrl = 'https://github.com/YvesCheung/RollingText.git'
-    libraryVersion = version
-}
-
-apply from: '../gradle/publish.gradle'
